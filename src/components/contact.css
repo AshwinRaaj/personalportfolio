@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#contact {
+  padding: 15pt;
+  background-color: #c0d8d4;
+  border-radius: 6pt;
+  box-shadow: 0 1.5pt 3pt rgba(0, 0, 0, 0.1);
+  max-width: 450pt;
+  margin: 15pt auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #3f4850;
+  margin-bottom: 15pt;
+  font-weight: 700;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 10pt;
+  font-weight: 400;
+  color: #3f4850;
+}
+
+#contact a {
+  color: #3f4850;
+  text-decoration: none;
+  border-bottom: 1pt solid #3f4850;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+#contact a:hover {
+  color: #d4afaf;
+  border-bottom-color: #d4afaf;
+}
